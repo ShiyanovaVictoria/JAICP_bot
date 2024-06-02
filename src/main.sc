@@ -23,7 +23,7 @@ theme: /
         a: {{$context.intent.answer}}
         
     state: weather
-        q!: * (~погода/~прогноз/*
+        q!: * (~погода/~прогноз/)*
         a: +4
 
     state: currency

@@ -1,5 +1,9 @@
 require: slotfilling/slotFilling.sc
   module = sys.zb-common
+# Работает для запросов о погоде и курсе валют
+# Кодовое слово: Freebot
+# Вставить в свой рабочий файл бота на сайте https://app.jaicp.com/ код ниже: 
+
 theme: /
 
     state: Start
